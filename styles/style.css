@@ -9,8 +9,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-variation-settings:
-    ;
+  
 }
 /* Font style */
 
@@ -90,7 +89,85 @@
 }
 /* banner section end */
 
+
+
+
+/* plants section start */
+
+.plants-section{}
+
+.plants-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.plants-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.plants-div2{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.plant-card{
+    text-align: center;
+}
+
+.plant-card-img{
+
+}
+
+.plant-card-title{
+    font-size: 22px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.plant-card-price{
+    font-size: 22px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.plant-card-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 20px 80px 20px 80px;
+    border: none;
+}
+
+
+/* plants section end */
+
+
+
+
+
+
+
 /* Main section end */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,6 +244,68 @@
 .banner-img{
     width: 100%;
 }
+
+
+
+/* plants section start */
+
+.plants-section{}
+
+.plants-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.plants-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.plants-div2{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+    margin-top: 30px;
+}
+
+.plant-card{
+    text-align: center;
+}
+
+.plant-card-img{
+    width: 85%;
+}
+
+.plant-card-title{
+    font-size: 16px;
+    font-weight: 600;
+    color: #111111;
+}
+
+.plant-card-price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #111111;
+}
+
+.plant-card-btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 20px 30px 20px 30px;
+    border: none;
+}
+
+
+/* plants section end */
+
+
 /* Main section end */
 
 
