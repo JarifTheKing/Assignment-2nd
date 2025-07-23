@@ -1,7 +1,34 @@
+/* Font style */
+    
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    ;
+}
+/* Font style */
+
+
+
 
 /* common styles start*/
+.margin{
+        margin: 30px 100px 100px 100px;
+}
 
-
+.gold-heading{
+    color: #E95A08;
+}
+.description{
+    font-size: 22px;
+    color: #00000079;
+}
 
 /* common styles end*/
 
@@ -41,6 +68,28 @@
 
 
 /* Main section start */
+
+/* banner section start */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-div1{}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.banner-div2{}
+.banner-img{
+    /* width: 570px;
+    height: 355px; */
+}
+/* banner section end */
+
 /* Main section end */
 
 
@@ -53,10 +102,18 @@
 
 @media screen and (max-width: 576px) {
 /* common style */
+    .margin{
+        margin: 0 0 0 0 ;
+}
+
      .display{
     display: none;
      }
 
+     .description{
+    font-size: 14px;
+    color: #00000079;
+}
 /* common style */
 
 
@@ -81,6 +138,39 @@
     margin-right: 10px;
 }
 
+
+
+/* Header section end */
+
+/* Main section start */
+
+/* banner section start */
+.banner-section{
+    display: flex;
+    flex-direction: column-reverse;
+    
+    
 }
 
+.banner-div1{
+    margin: 28px  16px 60px 16px;
+}
+
+.banner-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.banner-div2{
+    /* margin: 0px  16px 0px 16px; */
+}
+.banner-img{
+    width: 100%;
+}
+/* Main section end */
+
+
+
+
+}
 /* Mobile device end */
