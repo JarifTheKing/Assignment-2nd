@@ -218,7 +218,10 @@
 
 /* footer start*/
 .footer{
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 70px;
 }
 
 .footer-logo-div{
@@ -244,6 +247,11 @@
     display: flex;
     justify-content: center;
     /* margin-left: 30px; */
+}
+
+.footer-icons-div img{
+    width: 40px;
+    height: 40px;
 }
 
 .footer-icon{
@@ -446,6 +454,39 @@
 
 /* Main section end */
 
+
+
+/* footer start*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 50px; */
+    margin-top: 70px;
+    padding: 50px 0 50px 20px;
+}
+
+.footer-links-div{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+}
+
+.footer-icons-div{
+    display: flex;
+    justify-content: left;
+    margin-left: 0;
+    /* margin-left: 30px; */
+}
+
+.footer-icons-div img{
+    width: 40px;
+    height: 40px;
+}
+
+.footer-icon{
+    margin-left: 30px;
+}
+/* footer end */
 
 
 
