@@ -152,13 +152,104 @@
 
 
 
+/* deals section start */
 
+
+/* deals section end */
+
+
+
+
+
+/* Join section start */
+
+.join-section{
+    background-image: url("/assets/news-letter-bg.png");   
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.join-main-div{
+    
+    padding: 200px 300px;
+    text-align: center;
+    
+}
+
+.join-title{
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.join-div{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.join-input{
+     font-size: 16px;
+    color: #FFFFFF;
+    padding: 20px 300px 20px 50px;
+    border: none;
+}
+
+.join-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 20px 50px 20px 50px;
+    border: none;
+    
+}
+/* Join section end */
 
 
 
 /* Main section end */
 
 
+
+
+/* footer start*/
+.footer{
+
+}
+
+.footer-logo-div{
+
+}
+
+.footer-logo-img{
+
+}
+
+.footer-links-div{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.footer-link{
+    color: #6B7280;
+    text-decoration: none;
+}
+
+.footer-icons-div{
+    display: flex;
+    justify-content: center;
+    /* margin-left: 30px; */
+}
+
+.footer-icon{
+    margin-left: 30px;
+}
+/* footer end */
 
 
 
@@ -305,6 +396,53 @@
 
 /* plants section end */
 
+
+/* Join section start */
+
+.join-section{
+    width: 100%;
+}
+
+.join-main-div{
+    background-image: url("/assets/news-letter-bg.png");
+    /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 36px 70px 36px;
+    text-align: center;
+    margin: auto;
+}
+
+.join-title{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.join-div{
+    
+    display: flex;
+    justify-content: center;
+}
+
+.join-input{
+     font-size: 16px;
+    color: #FFFFFF;
+   padding: 15px 50px 15px 20px;
+    border: none;
+}
+
+.join-btn{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #E95A08;
+    padding: 20px 10px 20px 10px;
+    border: none;
+    
+}
+/* Join section end */
 
 /* Main section end */
 
