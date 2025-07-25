@@ -20,7 +20,10 @@
 .margin{
         margin: 30px 100px 100px 100px;
 }
-
+.nothing{
+    margin: 0;
+    padding: 0;
+}
 .gold-heading{
     color: #E95A08;
 }
@@ -72,7 +75,7 @@
 .banner-section{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
 }
 
 .banner-div1{}
@@ -209,6 +212,8 @@ ul{
     font-weight: 800;
 }
 
+
+
 .deals-card-container {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -297,6 +302,7 @@ ul{
     background-image: url("/assets/news-letter-bg.png");   
     background-size: cover;
     background-position: center;
+    width: 100vh;
     width: 100%;
     background-repeat: no-repeat;
 }
@@ -323,7 +329,7 @@ ul{
 
 .join-input{
      font-size: 16px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     padding: 20px 300px 20px 50px;
     border: none;
 }
