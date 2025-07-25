@@ -243,15 +243,15 @@ ul{
 
 
 .left-img-card .deal-box:nth-child(1) {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/assets/deal-bloom.png');
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('../assets/deal-bloom.png');
 }
 
 .left-img-card .deal-box:nth-child(2) {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/assets/deal-ana.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('../assets/deal-ana.png');
 }
 
 .right-img-card .deal-box {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('/assets/deal-zabo.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url('../assets/deal-zabo.png');
   height: 100%;
   
 }
@@ -298,7 +298,7 @@ ul{
 /* Join section start */
 
 .join-section{
-    background-image: url("/assets/news-letter-bg.png");   
+    background-image: url("../assets/news-letter-bg.png");   
     background-size: cover;
     background-position: center;
     width: 100vh;
@@ -617,7 +617,7 @@ ul{
 }
 
 .join-main-div{
-    background-image: url("/assets/news-letter-bg.png");
+    background-image: url("../assets/news-letter-bg.png");
     /* width: 100%; */
     background-size: cover;
     background-repeat: no-repeat;
