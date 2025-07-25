@@ -22,7 +22,6 @@
 }
 .nothing{
     margin: 0;
-    padding: 0;
 }
 .gold-heading{
     color: #E95A08;
@@ -638,6 +637,7 @@ ul{
     
     display: flex;
     justify-content: center;
+    /* margin: 0 40px 0 40px; */
 }
 
 .join-input{
